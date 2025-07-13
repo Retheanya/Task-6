@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 20px;
+    font-weight: 800;
+    color: #5aeeb3 !important;
+}
+#navbarSupportedContent a{
+color: white;
+border-bottom: 2px solid transparent;
+margin-right: 10px;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid  #29f700;
+}
+#navbarSupportedContent button{
+    background: #5aeeb3;
+    width: 5rem;
+    border-radius: 15px;
+    
+}
+   
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:  url(imgh.jpeg );
+    background-size: cover;
+    background-position:fixed;
+    flex-direction: column;
+}
+#home h1{
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px gray,
+                 0px 2px 0px gray,
+                 0px 3px 0px grey,
+                 0px 4px 0px gray,
+                 0px 5px 0px grey,
+                 0px 6px 0px grey,
+                 0px 7px 0px grey;
+}
+#home p{
+    font-size: 17px;
+    color: black;
+    font-weight: bolder;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.signin{
+    background: #5aeeb3 !important;
+    color: black;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    font-weight: bold;
+}
+#about{
+    background: linear-gradient(to right, #b8cdc4,#b8cdc4 100%);
+}
+#about h1{
+    font-weight: 800;
+    font-size: 40px;
+    }
+#projects{
+    background: #eed8ee;
+}
+#projects h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+#projects img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    background: #eed8ee !important ;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px #ffff;
+    margin-bottom: 2em;
+    margin: 20px 60px;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+.card-title{
+    font-weight: bold;
+}
+
+.card:hover{
+    box-shadow:     inset 5px 5px 10px rgba(0,0,0,.3),
+                    inset -4px -4px 10px #ffff;
+    transition: .2s;
+}
+
+#contact{
+    background: #c6def1;
+}
+#contact img{
+    height: 80% !important;
+     box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+
+.form-check-label{
+    margin: 4px 4px;
+    font-weight: bold;
+    
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top:-10px ;
+    text-align: center;
+    color: #ffff;
+    padding: 3px;
+}
+.blockquote-footer{
+    text-align: center;
+    justify-content: center;
+    color: black;
+}
